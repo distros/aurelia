@@ -1,7 +1,7 @@
 {
-  "name": "aurelia",
-  "version": "0.12.0",
-  "description": "A bundled version of the aurelia components",
+  "name": "Aurelia",
+  "version": "0.13.0",
+  "description": "A bundled version of the Aurelia components",
   "keywords": [
     "aurelia",
     "spa"
