@@ -58,7 +58,7 @@ use this to bundle the application files while excluding the ones already includ
 jspm bundle */** - aurelia app.bundle.js --inject
 ```
 
-##
+## What is included
 
 Here is an overview of what is included in this bundle.
 This is what should be pasted into the config.js when using it as an injected bundle.
