@@ -52,10 +52,11 @@ The app can still be developed without bundling the application files or depende
 
 ## Bundling application files
 
-use this to bundle the application files while excluding the ones already included in the aurelia bundle:
+Use this to bundle the application files while excluding the ones already included in the aurelia bundle.
+note: Method 2 should be used to make this work or jspm will not know how to exclude the aurelia components.
 
 ```
-jspm bundle */** - aurelia app.bundle.js --inject
+jspm bundle **/* - aurelia --inject -m app.bundle.js
 ```
 
 ## What is included
