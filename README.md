@@ -2,13 +2,13 @@
 
 This is a bundled version of the [Aurelia framework components](https://github.com/aurelia).
 
-# installation
+## installation
 
 ```
 jspm install github:distros/aurelia
 ```
 
-# Method 1
+## Method 1
 
 Add it as a script tag after system.js.
 
@@ -22,7 +22,7 @@ System.import('aurelia-bootstrapper');
 
 ```
 
-# Method 2
+## Method 2
 
 Add it as a auto injected bundle.
 
@@ -50,17 +50,18 @@ System.config({
 Your app will now use the bundled aurelia components so your app will boot up faster.
 The app can still be developed without bundling the application files or dependencies.
 
-# Bundling application files
+## Bundling application files
 
 use this to bundle the application files while excluding the ones already included in the aurelia bundle:
 
 ```
-jspm bundle */** - aurelia dist/app.bundle.js --inject
+jspm bundle */** - aurelia app.bundle.js --inject
 ```
 
+##
 
-
-Here is an overview of what is included in this bundle:
+Here is an overview of what is included in this bundle.
+This is what should be pasted into the config.js when using it as an injected bundle.
 
     "aurelia": [
       "npm:core-js@0.9.5/modules/$.fw",
